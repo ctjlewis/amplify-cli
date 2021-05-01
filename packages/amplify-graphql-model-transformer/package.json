@@ -17,6 +17,9 @@
         "aws",
         "amplify"
     ],
+    "publishConfig": {
+      "access": "public"
+    },
     "scripts": {
         "build": "tsc",
         "watch": "tsc -w",
@@ -57,7 +60,7 @@
     },
     "devDependencies": {
         "@types/fs-extra": "^8.0.1",
-        "@types/node": "^10.17.13"
+        "@types/node": "^12.12.6"
     },
     "jest": {
         "transform": {

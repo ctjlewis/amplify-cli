@@ -342,6 +342,17 @@
   dependencies:
     "@aws-amplify/core" "^3.5.5"
 
+"@aws-cdk/assert@~1.72.0":
+  version "1.72.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/assert/-/assert-1.72.0.tgz#2811b89536a34d970ba43f73f9c77228a73c90ca"
+  integrity sha512-ikzkFtpTyJeJdQb9ajxa8/wVouEp6dKGU2NhaBrn1gR3r7Qekp3VFZHYytz8RRsf9vLy3P7vzqlT3k8WLeUm4g==
+  dependencies:
+    "@aws-cdk/cloud-assembly-schema" "1.72.0"
+    "@aws-cdk/cloudformation-diff" "1.72.0"
+    "@aws-cdk/core" "1.72.0"
+    "@aws-cdk/cx-api" "1.72.0"
+    constructs "^3.2.0"
+
 "@aws-cdk/assets@1.72.0", "@aws-cdk/assets@~1.72.0":
   version "1.72.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/assets/-/assets-1.72.0.tgz#7bb81ae4079a63a90effd94df4fda832a2c48483"
@@ -7023,16 +7034,6 @@
   version "14.11.2"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.11.2.tgz#2de1ed6670439387da1c9f549a2ade2b0a799256"
   integrity sha512-jiE3QIxJ8JLNcb1Ps6rDbysDhN4xa8DJJvuC9prr6w+1tIh+QAbYyNF3tyiZNLDBIuBCf4KEcV2UvQm/V60xfA==
-
-"@types/node@^10.17.13":
-  version "10.17.35"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.17.35.tgz#58058f29b870e6ae57b20e4f6e928f02b7129f56"
-  integrity sha512-gXx7jAWpMddu0f7a+L+txMplp3FnHl53OhQIF9puXKq3hDGY/GjH+MF04oWnV/adPSCrbtHumDCFwzq2VhltWA==
-
-"@types/node@^12.0.0":
-  version "12.19.15"
-  resolved "https://registry.npmjs.org/@types/node/-/node-12.19.15.tgz#0de7e978fb43db62da369db18ea088a63673c182"
-  integrity sha512-lowukE3GUI+VSYSu6VcBXl14d61Rp5hA1D+61r16qnwC0lYNSqdxcvRh0pswejorHfS+HgwBasM8jLXz0/aOsw==
 
 "@types/node@^12.12.6":
   version "12.19.1"
